@@ -7,7 +7,8 @@ Script for Manipulation of Data of Project Show The Atom
 	 ````
 	 def sitAtual():
 	 r = requests.get('http://ffc3ed57.ngrok.io/atoms')
-	 print r.json()````
+	 print r.json()
+	 ````
  - **Inserir Dados**:
 	 ````
 	 def insert(id, name, numatom, description):
