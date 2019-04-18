@@ -46,4 +46,8 @@ O que é o Projeto **Show The Atom**? É uma construção de um **software** dis
 	![menu](https://i.imgur.com/meqDpJU.png)
 	Todas as opções estão contidas nele, e as perguntas para entrada de dados são bem diretas então não há nenhum grande problema para usá-lo.
 
+- **Diversidade**:
+	O menu está disponível para **qualquer plataforma**, mesmo com ou sem python.
+	Para **terminais** temos o script em Python 2.7: [Script Python](https://github.com/ProfessorJamesBach/ShowTheAtomServer/blob/master/mysql.py)
+	Para quem **não tem o Python**, temos o arquivo compilado: [Arquivo .EXE](https://github.com/ProfessorJamesBach/ShowTheAtomServer/blob/master/mysql.exe)
 
