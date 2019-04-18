@@ -4,7 +4,7 @@
 ![versão](https://img.shields.io/badge/version-v0.2-orange.svg)
 Script for Manipulation of Data of Project Show The Atom
 
-O que é o Projeto **Show The Atom**? É uma construção de um **software** disponível para **todas as plataformas** que **auxilia estudantes** com a **tabela periódica**, trás a mostra de maneira **rápida e prática** várias **informações sobre um átomo** que deseja saber mais.
+O que é o Projeto **Show The Atom**? É uma construção de um **software** disponível para **todas as plataformas** que **auxilia estudantes** com a **tabela periódica**, traz a mostra de maneira **rápida e prática** várias **informações sobre um átomo** que deseja saber mais.
 
 - **Server**:
 	Nosso server  para manipulação de dados foi feito com **NodeJS**, juntamento com o banco de dados **MySQL** como podemos olhar no github do server: [script here](https://github.com/ProfessorJamesBach/ShowTheAtomServer)
