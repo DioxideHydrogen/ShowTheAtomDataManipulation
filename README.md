@@ -7,7 +7,7 @@ Script for Manipulation of Data of Project Show The Atom
 O que é o Projeto **Show The Atom**? É uma construção de um **software** disponível para **todas as plataformas** que **auxilia estudantes** com a **tabela periódica**, trás a mostra de maneira **rápida e prática** várias **informações sobre um átomo** que deseja saber mais.
 
 - **Server**:
-	Nosso server  para manipulação de dados foi feito com **NodeJS**, juntamento com o banco de dados **MySQL** como podemos olhar no github do server: [ShowTheAtomServer](https://github.com/ProfessorJamesBach/ShowTheAtomServer)
+	Nosso server  para manipulação de dados foi feito com **NodeJS**, juntamento com o banco de dados **MySQL** como podemos olhar no github do server: [script here](https://github.com/ProfessorJamesBach/ShowTheAtomServer)
  - **Situação atual**:
 	 ````
 	 def sitAtual():
@@ -41,10 +41,9 @@ O que é o Projeto **Show The Atom**? É uma construção de um **software** dis
 	    print r.text
 	````
 
+- **Menu**:
+	O menu é bem simples, tanto de utilização quanto de programação:
+	![menu](https://i.imgur.com/meqDpJU.png)
+	Todas as opções estão contidas nele, e as perguntas para entrada de dados são bem diretas então não há nenhum grande problema para usá-lo.
 
-
-
-
-
-`
 
