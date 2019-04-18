@@ -5,10 +5,10 @@ def sitAtual():
     r = requests.get('http://ffc3ed57.ngrok.io/atoms')
     print r.json()
 
-def insert(name, numatom, description):
+def insert(id, name, numatom, description):
     descricao = open(description)
     descricao = descricao.read()
-    r = requests.post('http://ffc3ed57.ngrok.io/atom', data={'element': name, 'numatom': numatom, 'description': descricao})
+    r = requests.post('http://ffc3ed57.ngrok.io/atom', data={'id': id,'element': name, 'numatom': numatom, 'description': descricao})
     print r.status_code
     print r.text
 def delete(id):
@@ -27,7 +27,6 @@ def main():
     Professor James Bath and ShowTheAtom
     MySQL Insertion of Data by requests
     Python 2.7
-
     [0] Situação Atual
     [1] Inserir dados
     [2] Deletar dados // Informar caso utilize essa função
@@ -38,10 +37,11 @@ def main():
     if choice == 0:
         sitAtual()
     if choice == 1:
+        id = raw_input("ID: ")
         name = raw_input("Nome do átomo: ")
         numatom = int(raw_input("Número atómico: "))
         description = raw_input("Nome de arquivo contendo a descrição do átomo: ")
-        insert(name, numatom, description)
+        insert(id, name, numatom, description)
     if choice == 2:
         id = raw_input("ID do átomo que deseja deletar: ")
         delete(id)
